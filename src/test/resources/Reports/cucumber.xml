@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.345121">
+<testcase classname="validation of amazon application" name="TC01_to Validate Amazon application to" time="26.345121">
+<system-out><![CDATA[Given userbshould launch the mobile application.............................passed
+When user should search products............................................passed
+And user should select toggle button........................................passed
+And user  should select your account........................................passed
+Then user with login username and password..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

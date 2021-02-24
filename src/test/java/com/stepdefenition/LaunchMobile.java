@@ -18,20 +18,17 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
 public class LaunchMobile extends Base {
-AndroidDriver<MobileElement> driver;
-LoginPage  l;
-	
+	AndroidDriver<MobileElement> driver;
+	LoginPage l;
+
 	@Given("userbshould launch the mobile application")
 	public void userbshould_launch_the_mobile_application() throws MalformedURLException, InterruptedException {
-		
 		getDriver();
 		l = new LoginPage();
 		Thread.sleep(5000);
 		MobileElement englishBtn = l.getEnglishBtn();
-		
-	
+
 		englishBtn.click();
-		
 
 	}
 
@@ -51,6 +48,4 @@ LoginPage  l;
 	public void user_with_login_username_and_password() {
 	}
 
-	
-	
 }

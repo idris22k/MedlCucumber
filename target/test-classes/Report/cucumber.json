@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "TC01_to Validate Amazon application to",
+        "description": "",
+        "id": "validation-of-amazon-application;tc01-to-validate-amazon-application-to",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36762266600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "userbshould launch the mobile application",
+            "match": {
+              "location": "LaunchMobile.userbshould_launch_the_mobile_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should search products",
+            "match": {
+              "location": "LaunchMobile.user_should_search_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should select toggle button",
+            "match": {
+              "location": "LaunchMobile.user_should_select_toggle_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user  should select your account",
+            "match": {
+              "location": "LaunchMobile.user_should_select_your_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user with login username and password",
+            "match": {
+              "location": "LaunchMobile.user_with_login_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validation of amazon application",
+    "description": "",
+    "id": "validation-of-amazon-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Launch.feature",
+    "tags": []
+  }
+]
